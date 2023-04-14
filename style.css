@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background: url("https://github.com/pwlive/fullstackwebdevelopment/blob/main/Assignment_01(HTML+CSS)/assets/pexels-maxyne-barcel-10402282%201.png?raw=true");
+    background-repeat: no-repeat;
+    background-position: center center center center;
+    background-size: cover;
+
+}
+#logo{
+    margin: 1rem;
+}
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+#navlinks>ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+}
+#navlinks>ul>li{
+    margin: 1rem;
+    padding: 1rem;
+}
+a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: rgb(255 194 51);
+    font-family: sans-serif;
+}
+#orderbutton{
+    padding: 0.5rem 2rem;
+    background: #ff515f;
+    border: 1px solid #ff515f;
+}
+#orderbutton{
+    color: #fffdfd;
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+
+#middlewriting{
+    text-align: center;
+    font-size: 5rem;
+    font-weight: bolder;
+    padding: 3rem;
+    line-height: 5rem;
+    font-family: sans-serif;
+    color: rgb(255 194 51) ;
+}
+#readmenu{
+    text-align: center;    
+}
+#readmenu>button{
+    padding: 1rem 3rem;
+    background: #ff515f;
+    border: none;
+    font-family: sans-serif;
+    color: #fffdfd;
+    font-size: 1.5rem;
+}
+#footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+}
+#footer>img{
+    height: 8rem;
+    width: 8rem;
+    float: right;
+    
+}
